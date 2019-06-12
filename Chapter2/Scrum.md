@@ -14,5 +14,11 @@
 
 ### 2.1.7 scrum用到的工具
 
+
+
+参考资料：[http://www.scrumcn.com](http://www.scrumcn.com/)
+
+
+
  
 
