@@ -25,4 +25,6 @@
 
 ### [测试自动化的敏捷方法](./Chapter6/AgileTestAutomation.md#6.2 测试自动化的敏捷方法)
 
+### [哪些测试可以自动化](./Chapter6/AgileTestAutomation.md#6.3 哪些测试可以自动化)
+
 ## 敏捷测试转型案例和个人分享
