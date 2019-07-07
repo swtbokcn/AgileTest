@@ -26,6 +26,7 @@ SWTBOK的敏捷测试小组编著
 - 敏捷项目管理和团队管理
 - 敏捷质量管理和质量保障
 - 敏捷测试
+  * [敏捷测试的本质](./Chapter5/敏捷测试的本质.md#敏捷测试的本质)
 - 敏捷自动化
   * [将敏捷法则应用到测试自动化上](./Chapter6/AgileTestAutomation.md#将敏捷法则应用到测试自动化上)
   * [测试自动化的敏捷方法](./Chapter6/AgileTestAutomation.md#测试自动化的敏捷方法)
