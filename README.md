@@ -23,6 +23,14 @@ SWTBOK的敏捷测试小组编著
   * [敏捷的发展](./Chapter1/AgileOverview.md#敏捷的发展)
 - 敏捷中的各种实践、思想和方法
   * [极限编程](./Chapter2/xp.md)
+  * Scrum
+    * [什么是Scrum](./Chapter2/Scrum/什么是Scrum.md)
+    * [Scrum的起源](./Chapter2/Scrum/Scrum的起源.md)
+    * [Scrum的角色](./Chapter2/Scrum/Scrum的角色.md)
+    * [Scrum术语](./Chapter2/Scrum/Scrum术语.md)
+    * [Scrum过程](./Chapter2/Scrum/Scrum过程.md)
+    * [Scrum会议](./Chapter2/Scrum/Scrum会议.md)
+    * [Scrum敏捷开发工具](./Chapter2/Scrum/Scrum敏捷开发工具.md)
 - 敏捷项目管理和团队管理
 - 敏捷质量管理和质量保障
 - 敏捷测试
