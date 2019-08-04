@@ -10,7 +10,7 @@
 ## **作者（以姓名拼音顺序）**
 SWTBOK的敏捷测试小组编著
 
-作者包括：董昌丽、马均飞、史颜英、涂春燕、王丽丽
+作者包括：董昌丽、黄蓺戈、马均飞、史颜英、涂春燕、王丽丽
 
 ## **问题反馈**
 欢迎利用Github提交request，我们会及时review并对文档进行更新。
@@ -23,6 +23,14 @@ SWTBOK的敏捷测试小组编著
   * [敏捷的发展](./Chapter1/AgileOverview.md#敏捷的发展)
 - 敏捷中的各种实践、思想和方法
   * [极限编程](./Chapter2/xp.md)
+  * Scrum
+    * [什么是Scrum](./Chapter2/Scrum/什么是Scrum.md)
+    * [Scrum的起源](./Chapter2/Scrum/Scrum的起源.md)
+    * [Scrum的角色](./Chapter2/Scrum/Scrum的角色.md)
+    * [Scrum术语](./Chapter2/Scrum/Scrum术语.md)
+    * [Scrum过程](./Chapter2/Scrum/Scrum过程.md)
+    * [Scrum会议](./Chapter2/Scrum/Scrum会议.md)
+    * [Scrum敏捷开发工具](./Chapter2/Scrum/Scrum敏捷开发工具.md)
 - 敏捷项目管理和团队管理
 - 敏捷质量管理和质量保障
 - 敏捷测试
@@ -34,3 +42,5 @@ SWTBOK的敏捷测试小组编著
   * [测试自动化的敏捷方法](./Chapter6/AgileTestAutomation.md#测试自动化的敏捷方法)
   * [哪些测试可以自动化](./Chapter6/AgileTestAutomation.md#哪些测试可以自动化)
 - 敏捷测试转型案例和个人分享
+  * [这些年目睹敏捷之怪现象](./Chapter1/AgileMU.md)
+  * [保险行业大型数字业务转型项目案例](./Chapter6/aCaseOfSafe.md)
