@@ -37,66 +37,64 @@
 
 该测试流程的关键点在于：
 
-3.1 每个US必须有至少一个TC覆盖 ，设计TC的时候，先做测试分析（例如根据Acceptance Criteria得出可能的test scenario），再做测试设计，测试团队要给各个敏捷团队提供培训，教会BA做基本测试分析及测试设计的套路。 
-
-3.2 每个TC必须由该敏捷小组内的另外一个角色来进行review并最终approve。各个敏捷小组自由选择review人选。
-
-3.3 每个approve过的TC才能执行，执行通过后由PO检查，无疑义后可以关闭user story。
-
-3.4 测试经理需要根据每个PI/Sprint给各个敏捷小组建立User Story的测试计划，每周定时出测试报告并在类似PO会议或者SoS会议中讲解，目的是给出每个敏捷小组的对比并督促执行。
-
-3.5 每个sprint各个敏捷小组都要考虑回归测试，根据该sprint各个user story的change impact，选择过去已经通过的TC重复执行，后期自动化加入后，可以做成每天定时的自动化回归测试。
+- 每个US必须有至少一个TC覆盖 ，设计TC的时候，先做测试分析（例如根据Acceptance Criteria得出可能的test scenario），再做测试设计，测试团队要给各个敏捷团队提供培训，教会BA做基本测试分析及测试设计的套路。 
+- 每个TC必须由该敏捷小组内的另外一个角色来进行review并最终approve。各个敏捷小组自由选择review人选。
+- 每个approve过的TC才能执行，执行通过后由PO检查，无疑义后可以关闭user story。
+- 测试经理需要根据每个PI/Sprint给各个敏捷小组建立User Story的测试计划，每周定时出测试报告并在类似PO会议或者SoS会议中讲解，目的是给出每个敏捷小组的对比并督促执行。
+- 每个sprint各个敏捷小组都要考虑回归测试，根据该sprint各个user story的change impact，选择过去已经通过的TC重复执行，后期自动化加入后，可以做成每天定时的自动化回归测试。
 
 ### 4. E2E Test 测试流程（包含Feature测试/系统测试/端到端测试/UAT测试）
 ![E2E test process](https://user-images.githubusercontent.com/46529280/62291118-4d1cb600-b463-11e9-8121-4039802922ba.png)
 
 当某个feature下的所有user story都关闭后（即US都测试通过并接收），该feature可进入这一阶段的测试，这一阶段测试我自己起了个名字叫E2E Test（没办法，大家说叫别的没法理解，只好照顾大家的感受了），由测试团队执行。各个子类测试流程如下：
 
-4.1 QA of User Story Test
+#### 4.1 QA of User Story Test
 
 测试人员（特指测试团队人员）需要对敏捷团队进行的user story test进行检查，通常关注点为：
-a) 需求描述及AC的质量检查
-b) 测试案例对AC的覆盖程度
-c) TC的执行结果是否真实有效
-d) 该QA可以融入US Test过程中，例如在test review阶段加入测试人员的review。
+1. 需求描述及AC的质量检查
+2. 测试案例对AC的覆盖程度
+3. TC的执行结果是否真实有效
+4. 该QA可以融入US Test过程中，例如在test review阶段加入测试人员的review。
 
-4.2 Feature Test
-a) 测试分析：根据Feature / US的需求描述及AC，构建尽量多的test scenario，对每个场景给出优先级（这里可以加入Risk-based test的内容了）。重点在于找到US Test没有覆盖到的场景，以及各类异常场景。同时对需求或设计有不清楚的地方，也要记录下来。
-b) 测试设计：优先级高或有必要的场景，书写测试步骤。
-c) 测试评审：评审由测试人员组织，主要评审人为PO或BA，评审中需要澄清测试提出的问题，对测试场景达成一致（哪些场景要测，哪些不用测，为什么），对各个场景的测试步骤达成一致。
-d) 测试执行：通常要求在区别于US Test的测试环境进行测试，发现bug就提给各个敏捷小组，全部TC pass后提交PO。
-e) 关闭Feature：PO验收测试结果后关闭Feature。 （注意不能由测试来关feature）
-f) 自动化上来以后，每个feature可以总结出关键场景，创建新的自动化案例或者更新已有自动化案例，加入每晚的自动化回归中。
+#### 4.2 Feature Test
 
-4.3 端到端测试
+1. 测试分析：根据Feature / US的需求描述及AC，构建尽量多的test scenario，对每个场景给出优先级（这里可以加入Risk-based test的内容了）。重点在于找到US Test没有覆盖到的场景，以及各类异常场景。同时对需求或设计有不清楚的地方，也要记录下来。
+2. 测试设计：优先级高或有必要的场景，书写测试步骤。
+3. 测试评审：评审由测试人员组织，主要评审人为PO或BA，评审中需要澄清测试提出的问题，对测试场景达成一致（哪些场景要测，哪些不用测，为什么），对各个场景的测试步骤达成一致。
+4. 测试执行：通常要求在区别于US Test的测试环境进行测试，发现bug就提给各个敏捷小组，全部TC pass后提交PO。
+5. 关闭Feature：PO验收测试结果后关闭Feature。 （注意不能由测试来关feature）
+6. 自动化上来以后，每个feature可以总结出关键场景，创建新的自动化案例或者更新已有自动化案例，加入每晚的自动化回归中。
+
+
+#### 4.3 端到端测试
+
 项目交付的最终目的是能支持实际的业务场景，故第一步是从业务部门得到能够支持的业务场景集合，这里我找的是Product Management，每一个PI，Product Management都会组织PO进行业务场景的梳理，并以Use Case的形式给到测试这边。（我起了个很土的名字叫E2E workflow,没办法得照顾大家的认知。。。）
 
 端到端测试流程如下：
-a)获取E2E workflow并进行评审，评审由测试及相关敏捷小组的Scrum Master参加，并将结果反馈给Product Management，最终得到approve的E2E workflow。
-b)负责相关模块的测试与SM识别各个workflow涉及到的Feature，并初步讨论相关的重要场景。
-c) 根据相关feature的进度（何时开发，何时测试等），对workflow进行分解并制定初步的测试计划（即啥时候大概可以测长流程中的某一个小段，啥时候能组装起来）
-d) 按照测试计划及feature的进度，再进行测试分析->设计->评审->执行等.
-e) 最终全流程测试顺利通过后，提交给Product management验收。
-f) 每个PI可能只能解锁某一些E2E workflow的某些部分，但是在准备release前，要保证该release相关的E2E workflow及Feature 全部测试通过。
-g) 自动化上来以后，将关键的端到端案例转换为自动化案例并每晚执行。
+1. 获取E2E workflow并进行评审，评审由测试及相关敏捷小组的Scrum Master参加，并将结果反馈给Product Management，最终得到approve的E2E workflow。
+2. 负责相关模块的测试与SM识别各个workflow涉及到的Feature，并初步讨论相关的重要场景
+3. 根据相关feature的进度（何时开发，何时测试等），对workflow进行分解并制定初步的测试计划（即啥时候大概可以测长流程中的某一个小段，啥时候能组装起来）
+4. 按照测试计划及feature的进度，再进行测试分析->设计->评审->执行等.
+5. 最终全流程测试顺利通过后，提交给Product management验收。
+6. 每个PI可能只能解锁某一些E2E workflow的某些部分，但是在准备release前，要保证该release相关的E2E workflow及Feature 全部测试通过。
+7. 自动化上来以后，将关键的端到端案例转换为自动化案例并每晚执行。
 
-4.4 UAT测试
+#### 4.4 UAT测试
+
 通常UAT测试是和release 测试并在一起，但是这里我们希望终端业务客户能尽早参与，故设计了在端到端测试通过后（即某些E2E workflow全流程测试完成）即开始这部分的UAT。要点如下：
-a) UAT执行者为终端业务客户，测试团队行使测试管理及支持角色。
-b) UAT只能选取部分已经通过的feature /E2E TC进行重复执行，这样才能控制住测试范围，如果UAT tester提出一些没有测试过的需求，那么需要先在之前的测试活动中执行后才能加入UAT 范围。
-c) UAT 的流程仍然遵循 测试分析(确定范围)->测试设计(选择case及更新case)->测试评审（讨论范围，计划，case等）->测试执行。
-d) UAT的最终结果由PO及Product management接收。
+
+1. UAT执行者为终端业务客户，测试团队行使测试管理及支持角色。
+2. UAT只能选取部分已经通过的feature /E2E TC进行重复执行，这样才能控制住测试范围，如果UAT tester提出一些没有测试过的需求，那么需要先在之前的测试活动中执行后才能加入UAT 范围。
+3. UAT 的流程仍然遵循 测试分析(确定范围)->测试设计(选择case及更新case)->测试评审（讨论范围，计划，case等）->测试执行。
+4. UAT的最终结果由PO及Product management接收。
 
 ### 5. Release Test 流程
 ![release test process](https://user-images.githubusercontent.com/46529280/62294013-447bae00-b46a-11e9-94c9-98b9bb13650f.png)
 
 前述各个测试等级均在开发分支上进行，可以根据需要在适当的时候，开release分支。要点如下：
-
-a) 根据release的范围设计准入条件，不满足条件不要急于开始release test。
-
-b) Release test的意义在于验证该release分支上的版本能够上生产，故执行新测试，发现bug并不是测试的目的。根据scope及change impact选择已经执行通过的TC构建测试集合（更像是回归测试），附加各类非功能性测试（通常在staging上进行）。
-
-c) 如果UAT在前阶段不充分的话，可以合并到release test中进行。
+1. 根据release的范围设计准入条件，不满足条件不要急于开始release test。
+2. Release test的意义在于验证该release分支上的版本能够上生产，故执行新测试，发现bug并不是测试的目的。根据scope及change impact选择已经执行通过的TC构建测试集合（更像是回归测试），附加各类非功能性测试（通常在staging上进行）。
+3.  如果UAT在前阶段不充分的话，可以合并到release test中进行。
 
 
 ## 当前进度
