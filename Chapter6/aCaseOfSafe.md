@@ -36,10 +36,15 @@
 ![User story test process](https://user-images.githubusercontent.com/46529280/62290375-88b68080-b461-11e9-8c05-20a2f57c04d4.png)
 
 该测试流程的关键点在于：
+
 3.1 每个US必须有至少一个TC覆盖 ，设计TC的时候，先做测试分析（例如根据Acceptance Criteria得出可能的test scenario），再做测试设计，测试团队要给各个敏捷团队提供培训，教会BA做基本测试分析及测试设计的套路。 
+
 3.2 每个TC必须由该敏捷小组内的另外一个角色来进行review并最终approve。各个敏捷小组自由选择review人选。
+
 3.3 每个approve过的TC才能执行，执行通过后由PO检查，无疑义后可以关闭user story。
+
 3.4 测试经理需要根据每个PI/Sprint给各个敏捷小组建立User Story的测试计划，每周定时出测试报告并在类似PO会议或者SoS会议中讲解，目的是给出每个敏捷小组的对比并督促执行。
+
 3.5 每个sprint各个敏捷小组都要考虑回归测试，根据该sprint各个user story的change impact，选择过去已经通过的TC重复执行，后期自动化加入后，可以做成每天定时的自动化回归测试。
 
 ### 4. E2E Test 测试流程（包含Feature测试/系统测试/端到端测试/UAT测试）
