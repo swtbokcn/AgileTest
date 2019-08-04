@@ -43,3 +43,4 @@ SWTBOK的敏捷测试小组编著
   * [哪些测试可以自动化](./Chapter6/AgileTestAutomation.md#哪些测试可以自动化)
 - 敏捷测试转型案例和个人分享
   * [这些年目睹敏捷之怪现象](./Chapter1/AgileMU.md)
+  * [保险行业大型数字业务转型项目案例](./Chapter6/aCaseOfSafe.md)
