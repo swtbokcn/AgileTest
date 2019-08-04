@@ -34,6 +34,7 @@
 
 ### 3. User Story 测试流程
 ![User story test process](https://user-images.githubusercontent.com/46529280/62290375-88b68080-b461-11e9-8c05-20a2f57c04d4.png)
+
 该测试流程的关键点在于：
 3.1 每个US必须有至少一个TC覆盖 ，设计TC的时候，先做测试分析（例如根据Acceptance Criteria得出可能的test scenario），再做测试设计，测试团队要给各个敏捷团队提供培训，教会BA做基本测试分析及测试设计的套路。 
 3.2 每个TC必须由该敏捷小组内的另外一个角色来进行review并最终approve。各个敏捷小组自由选择review人选。
