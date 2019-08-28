@@ -44,3 +44,4 @@ SWTBOK的敏捷测试小组编著
 - 敏捷测试转型案例和个人分享
   * [这些年目睹敏捷之怪现象](./Chapter1/AgileMU.md)
   * [保险行业大型数字业务转型项目案例](./Chapter6/aCaseOfSafe.md)
+  * [”假敏捷“和”真敏捷“--大家都在走向敏捷的路上](./Chapter6/OnTheWayToAgile.md)
