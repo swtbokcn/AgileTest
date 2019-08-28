@@ -16,7 +16,7 @@
 
 首先来看一个经常出现的敏捷的伞图。
 
-![1566648182038](C:\majunfei\GitHub\AgileTest\Chapter6\images\onthewaytoagile1.png)
+![1566648182038](./images/onthewaytoagile1.png)
 
 敏捷其实是个大杂烩，而且在不断的变化。从敏捷的历史和敏捷宣言的发表就能够看出来。其实是先有的各种实践和流程，后来才汇总成为一个统一的说法”敏捷“。所以敏捷包括的内容很杂，有流程相关的Scrum，有包括各种实践的XP，还有其他各种方法。
 
