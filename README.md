@@ -17,10 +17,11 @@ SWTBOK的敏捷测试小组编著
 
 ## 目录
 - 敏捷介绍
+  * [敏捷的历史](./Chapter1/AgileOverview.md#敏捷的历史)
   * [什么是敏捷测试](./Chapter1/AgileOverview.md#什么是敏捷测试)
   * [敏捷测试的起源](./Chapter1/AgileOverview.md#敏捷测试的起源)
-  * [敏捷的特点](./Chapter1/AgileOverview.md#敏捷的特点)
-  * [敏捷的发展](./Chapter1/AgileOverview.md#敏捷的发展)
+  * [敏捷测试的特点](./Chapter1/AgileOverview.md#敏捷测试的特点)
+  * [敏捷测试的发展](./Chapter1/AgileOverview.md#敏捷测试的发展)
 - 敏捷中的各种实践、思想和方法
   * [极限编程](./Chapter2/xp.md)
   * Scrum
