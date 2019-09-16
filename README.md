@@ -32,6 +32,7 @@ SWTBOK的敏捷测试小组编著
     * [Scrum过程](./Chapter2/Scrum/Scrum过程.md)
     * [Scrum会议](./Chapter2/Scrum/Scrum会议.md)
     * [Scrum敏捷开发工具](./Chapter2/Scrum/Scrum敏捷开发工具.md)
+   * [看板](./Chapter2/kanban.md)
 - 敏捷项目管理和团队管理
 - 敏捷质量管理和质量保障
 - 敏捷测试
