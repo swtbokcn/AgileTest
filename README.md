@@ -38,6 +38,7 @@ SWTBOK的敏捷测试小组编著
   * [敏捷测试的本质](./Chapter5/敏捷测试的本质.md#敏捷测试的本质)
   * [敏捷测试的核心价值观](./Chapter5/敏捷测试的本质.md#敏捷测试的核心价值观)
   * [敏捷测试中测试人员的角色变化](./Chapter5/敏捷测试的本质.md#敏捷测试中测试人员的角色变化)
+  * [敏捷中的独立测试团队会消失吗](./Chapter5/TestRespinAgile.md)
 - 敏捷自动化
   * [将敏捷法则应用到测试自动化上](./Chapter6/AgileTestAutomation.md#将敏捷法则应用到测试自动化上)
   * [测试自动化的敏捷方法](./Chapter6/AgileTestAutomation.md#测试自动化的敏捷方法)
