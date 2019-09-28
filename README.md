@@ -17,10 +17,11 @@ SWTBOK的敏捷测试小组编著
 
 ## 目录
 - 敏捷介绍
+  * [敏捷的历史](./Chapter1/AgileOverview.md#敏捷的历史)
   * [什么是敏捷测试](./Chapter1/AgileOverview.md#什么是敏捷测试)
   * [敏捷测试的起源](./Chapter1/AgileOverview.md#敏捷测试的起源)
-  * [敏捷的特点](./Chapter1/AgileOverview.md#敏捷的特点)
-  * [敏捷的发展](./Chapter1/AgileOverview.md#敏捷的发展)
+  * [敏捷测试的特点](./Chapter1/AgileOverview.md#敏捷测试的特点)
+  * [敏捷测试的发展](./Chapter1/AgileOverview.md#敏捷测试的发展)
 - 敏捷中的各种实践、思想和方法
   * [极限编程](./Chapter2/xp.md)
   * Scrum
@@ -31,12 +32,15 @@ SWTBOK的敏捷测试小组编著
     * [Scrum过程](./Chapter2/Scrum/Scrum过程.md)
     * [Scrum会议](./Chapter2/Scrum/Scrum会议.md)
     * [Scrum敏捷开发工具](./Chapter2/Scrum/Scrum敏捷开发工具.md)
+   * [看板](./Chapter2/kanban.md)
 - 敏捷项目管理和团队管理
 - 敏捷质量管理和质量保障
 - 敏捷测试
   * [敏捷测试的本质](./Chapter5/敏捷测试的本质.md#敏捷测试的本质)
   * [敏捷测试的核心价值观](./Chapter5/敏捷测试的本质.md#敏捷测试的核心价值观)
   * [敏捷测试中测试人员的角色变化](./Chapter5/敏捷测试的本质.md#敏捷测试中测试人员的角色变化)
+  * [敏捷中的独立测试团队会消失吗](./Chapter5/TestRespinAgile.md)
+  * [探索性测试在敏捷中的应用](./Chapter5/ExploratoryTest.md)
 - 敏捷自动化
   * [将敏捷法则应用到测试自动化上](./Chapter6/AgileTestAutomation.md#将敏捷法则应用到测试自动化上)
   * [测试自动化的敏捷方法](./Chapter6/AgileTestAutomation.md#测试自动化的敏捷方法)
